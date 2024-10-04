@@ -10,26 +10,32 @@ p{
 #a{
     padding: 5px;
     border-radius: 25px;
-    background-color: rgb(255, 104, 16);
+    background-color: rgb(51, 51, 51);
+    box-shadow: -4px 4px 4px rgba(0,0,0,0.25);
 }
 #b{
     padding: 5px;
     border-radius: 25px;
-    background-color: rgb(255, 236, 67);
+    background-color: rgb(255, 47, 47);
+    box-shadow: -4px 4px 4px rgba(0,0,0,0.25);
 }
 #c{
     padding: 5px;
     border-radius: 25px;
-    background-color: rgb(255, 236, 67);
+    background-color: rgb(249, 255, 67);
+    box-shadow: -4px 4px 4px rgba(0,0,0,0.25);
 }
 #d{
     padding: 5px;
     border-radius: 25px;
-    background-color: rgb(255, 236, 67);
+    background-color: rgb(255, 67, 136);
+    box-shadow: -4px 4px 4px rgba(0,0,0,0.25);
 }
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    
 }
 footer {
     text-align: center;
@@ -54,6 +60,40 @@ footer {
     column-gap: 10px;
 }
 nav {
-    background-color: rgb(42, 157, 252);
+    background-color: rgb(210, 235, 255);
+    box-shadow: -4px 4px 4px rgba(0,0,0,0.25);
     height: 50px;
 }
+button {
+    padding: 10px 30px;
+    font-size: 15px;
+    color: rgb(11, 96, 255);
+    background: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -4px 4px 4px rgba(0,0,0,0.25);
+    cursor: pointer;
+    transition-duration: 0.25s;
+  }
+button:hover{
+    padding: 10px 40px;
+    font-size: 15px;
+    color: white;
+    background: rgb(11, 96, 255);
+    border: none;
+    border-radius: 5px;
+    box-shadow: -4px 4px 4px rgba(0,0,0,0.25);
+    cursor: pointer;
+    transition-duration: 0.25s;
+  }
+button:active{
+    padding: 10px 30px;
+    font-size: 15px;
+    color: #0b60ff;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -4px 4px 4px rgba(0,0,0,0.25);
+    cursor: pointer;
+    transition-duration: 0.1s;
+  }

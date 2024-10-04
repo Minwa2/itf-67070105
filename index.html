@@ -5,28 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function showPopup() {
+            alert("กดแล้วมันก็ไม่มีอะไรเกิดขึ้นหรอกครับ");
+        }
+    </script>
 </head>
 <body>
     <nav class="navbar">
-        <div>logo</div>
+        <div><img src="logo.png" width="250"><br/></div>
         <div class="nav-item-container">
-            <div class="nav-item">Home</div>
-            <div class="nav-item">Home2</div>
-            <div class="nav-item">Home3</div>
+            <div class="nav-item" onclick="showPopup()">Home</div>
+            <div class="nav-item" onclick="showPopup()">Home2</div>
+            <div class="nav-item" onclick="showPopup()">Home3</div>
         </div>
     </nav>
-    <img>
     <center>
         <div class="container">
-            <div id="a"><img src="1000009604.jpg" width="250"></div>
-            <div id="b">B</div>
-            <div id="c">C</div>
-            <div id="d">D</div>
+            <div id="a">
+                <img src="1000009604.jpg" width="250"><br/>
+                <a href="https://x.com/MINWA643135"><button type="button">x.com</button></a>
+            </div>
+            <div id="b">
+                <img src="2.jpg" width="250"><br/>
+                <a href="https://www.youtube.com/@MinwaDev"><button type="button">youtube</button></a>
+            </div>
+            <div id="c">
+                <img src="3.png" width="320"><br/>
+                <a href="https://minwa.itch.io/msnake"><button type="button">My game</button></a>
+            </div>
+            <div id="d">
+                <img src="1000009604.jpg" width="250"><br/>
+                <a href="https://www.instagram.com/m.inwa/"><button type="button">instagram</button></a>
+            </div>
         </div>
     </center>
     <footer>
         <p>Mymail</p>
-        <p><a href="pcr.wpd.mawin@gmail.com">pcr.wpd.mawin@gmail.com</a></p>
+        <p><a href="mailto: pcr.wpd.mawin@gmail.com">pcr.wpd.mawin@gmail.com</a></p>
     </footer>
 </body>
 </html>
