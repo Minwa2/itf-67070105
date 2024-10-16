@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab 14</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <div>
+            <a href="https://github.com/Minwa2" target="_blank" id="displayusername" class="username-link"></a>
+            <div class="avatar-div">
+                <div class="avatar-img-div">
+                    <img class="avatar" id="pfp" src="https://avatars.githubusercontent.com/u/79699394?v=4">
+                    <span class="notification">1</span>
+                </div>
+            </div>
+            <div class="username-text">
+                Set the Username
+                <input type="text" id="usrname" placeholder="Enter Username" class="textfield">
+                <button onclick="set_usrname()" class="set-btn">SET</button>
+            </div>
+            <div class="username-text">
+                Set the profile image URL
+                <input type="url" id="pfpurl" placeholder="Enter Image URL" class="textfield">
+                <button onclick="set_avatarimg()" class="set-btn">SET</button>
+            </div>
+            <div class="username-text"><h2>Phone Number List</h2></div>
+            <div class="phonelist-text">
+                <input type="url" id="nametext" placeholder="Name" class="textfield">
+                <input type="url" id="teltext" placeholder="Tel" class="textfield">
+                <button onclick="add_phone()" class="set-btn">ADD</button>
+                <button onclick="doExportCSV()" class="set-btn">EXPORT</button>
+            </div>
+            <div>
+                <table class="ptable" id="phonetable">
+                    <tr>
+                        <th>No.</th>
+                        <th>Name</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="lab14.js"></script>
+    </body>
+</html>

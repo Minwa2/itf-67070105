@@ -1,0 +1,136 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: rgb(117, 201, 250);
+}
+
+.username-link{
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    color: black;
+    text-decoration-line: none;
+}
+
+.username-link:hover{
+    color: #4169E1;
+    text-decoration-line: underline;
+}
+
+.avatar-div{
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.avatar-img-div{
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.avatar{
+    width: 183px;
+    height: 183px;
+    border-radius: 50%;
+}
+
+.avatar-div .notification{
+    position: relative;
+    right: 30%;
+    padding: 6px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+.username-text{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.phonelist-text{
+    text-align: center;
+}
+.textfield{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #ECEBEB;
+    border-style: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.set-btn {
+    padding: 10px 30px;
+    font-size: 15px;
+    color: rgb(11, 96, 255);
+    background: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.25s;
+  }
+.set-btn:hover{
+    color: white;
+    background: rgb(11, 96, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.25s;
+  }
+.set-btn:active{
+    color: #0b60ff;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+  }
+
+.ptable{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    border-style: none;
+    border-spacing: 0px;
+}
+
+.ptable th:nth-child(1), .ptable td:nth-child(1) {
+    width: 10%;
+    text-align: center;
+}
+
+.ptable th:nth-child(2), .ptable td:nth-child(2) {
+    width: 45%;
+}
+
+.ptable th:nth-child(3), .ptable td:nth-child(3) {
+    width: 45%;
+}
+
+th{
+    background-color: #D3D3D3;
+    border-bottom: 2px solid #9E9E9E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+tr {
+    border-style: none;
+}
+
+td{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #909090;
+    background-color: rgba(255, 255, 255, 0.5);
+}

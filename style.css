@@ -35,8 +35,18 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 50px;
-    
 }
+
+#alab{
+    color: black;
+    text-decoration-line: none;
+}
+
+#alab:hover{
+    color: #4169E1;
+    text-decoration-line: underline;
+}
+
 footer {
     text-align: center;
     position: absolute;
